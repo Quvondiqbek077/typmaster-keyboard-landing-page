@@ -1,1 +1,57 @@
 @import url(./font.css);
+
+:root {
+    --orange: #F16718;
+    --lite-orange: #FF9B62;
+    --black: #162542;
+    --lite-black: #7B8BAD;
+    --lite-white: #E8EFF2;
+    --white: #FFFFFF;
+    --barlow: "barlow";
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 1440px;
+    padding-left: 165px;
+    padding-right: 165px;
+}
+/* .navbar-tm{
+    width: 60px;
+    height: 60px;
+} */
+
+.btn-pre-order {
+    padding: 16px 27px;
+    border-radius: 8px;
+    background: var(--lite-white);
+    color: var(--black);
+    font-family: var(--barlow);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    transition: .5s;
+}
+.btn-pre-order:hover{
+    background-color: var(--lite-white) !important;
+}
+.btn-pre-order:active{
+    background-color: var(--black) !important;
+    color: var(--white) !important;
+}
